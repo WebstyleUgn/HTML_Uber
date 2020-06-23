@@ -1,0 +1,62 @@
+.require {
+    padding: 68px 0 84px;
+    &__block {
+        margin: 33px 0;
+        &_nmb {
+            margin-bottom: 0;
+        }
+    }
+
+    &__title {
+        margin-top: 22px;
+
+        font-size: 22px;
+        font-weight: 400;
+        color: #1ca8c3;
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 50px;
+        margin-top: 22px;
+        li {
+            margin-bottom: 10px;
+            position: relative;
+
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 24px;
+            &::before {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 21px;
+                height: 20px;
+                left: -32px;
+                top: 3px;
+                background: url(../icons/check_blue.svg) center (center/cover) no-repeat;
+            }
+        }
+    }
+
+    &__descr {
+        margin-top: 25px;
+
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #1ca8c3;
+    }
+
+    .warning {
+        .require__title {
+            color: $second-color;
+        }
+
+        .require__list {
+            li::before {
+                background: url(../icons/check_red.svg) center (center/cover) no-repeat;
+            }
+        }
+    }
+}

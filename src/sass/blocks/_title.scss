@@ -1,0 +1,28 @@
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+
+    color: #222;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+    &--white {
+        color: #fff;
+    }
+}
+
+.subtitle {
+    margin-top: 19px;
+
+    text-align: center;
+    color: #222;
+    font-size: 17px;
+    font-weight: 400;
+
+    &--white {
+        color: #fff;
+    }
+}

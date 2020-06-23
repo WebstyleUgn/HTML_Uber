@@ -1,0 +1,21 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+@import 'base/vars';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/reasons';
+@import 'blocks/title';
+@import 'blocks/label';
+@import 'blocks/mobile';
+@import 'blocks/choice';
+@import 'blocks/require';
+@import 'blocks/world';
+@import 'blocks/footer';
+@import "blocks/media";
